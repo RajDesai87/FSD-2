@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <button class="btn btn-dark btn-border" onclick="showDate()">Show date</button>
+    <script>
+        function showDate() {
+            const obj = JSON.parse('{"name":"abc","dob":"2026-03-16"}')
+            console.log(obj.dob)
+            document.write(obj.dob)
+            document.write('<br>')
+            a = new Date(obj.dob)
+            console.log(a)
+            document.write(a)
+        }
+    </script>
+</body>
+</html>
