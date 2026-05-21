@@ -1,2 +1,2 @@
 # FSD-2
-Semester 4 Course
+Full stak development-2 course , Semester 4
